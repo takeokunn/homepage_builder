@@ -18,7 +18,7 @@
     "Honoka": "^3.3.7"
   },
   "overrides": {
-    "bootstrap": {
+    "Honoka": {
       "main": "dist/css/bootstrap.css"
     }
   }

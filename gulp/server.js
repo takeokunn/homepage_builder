@@ -16,8 +16,11 @@ gulp.task('server:start:tmp', () => {
     return browserSync.init({
         port   : conf.port,
         server : {
-            baseDir : path.join(conf.paths.tmp, '/server')
-        },
+            baseDir : path.join(conf.paths.tmp, '/server'),
+            routes : {
+                '/bower_components' : 'bower_components'
+            }
+        }
     });
 });
 

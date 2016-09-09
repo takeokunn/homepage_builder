@@ -45,7 +45,7 @@ gulp.task('build:dist', () => {
 
     return runSequence(
         'clean:dist',
-        ['copy:html:dist', 'copy:assets:dist', 'style:dist', 'script:dist',],
+        ['copy:html:dist', 'copy:assets:dist', 'style:dist', 'script:dist', 'bower:dist'],
         'inject:dist'
     );
 });
