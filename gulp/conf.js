@@ -67,3 +67,11 @@ exports.webpack = (filename_) => {
         }
     };
 };
+
+/**
+ * html minimize config using in ./inject.js
+ */
+exports.htmlmin = {
+    collapseWhitespace : true,
+    removeComments     : true
+}
