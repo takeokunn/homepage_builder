@@ -1,0 +1,41 @@
+{
+  "name": "riot_flux_boilerplate_",
+  "version": "1.0.0",
+  "description": "This is a Riot.js+Flux boilerplate.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "takeokunn",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "browser-sync": "^2.14.3",
+    "del": "^2.2.2",
+    "easymock": "^0.2.19",
+    "fs-readdir-recursive": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-eslint": "^3.0.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-main-bower-files": "^1.5.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-riot": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9",
+    "node-notifier": "^4.6.1",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2",
+    "webpack-stream": "^3.2.0",
+    "wiredep": "^4.0.0"
+  }
+}

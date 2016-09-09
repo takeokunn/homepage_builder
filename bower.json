@@ -1,0 +1,25 @@
+{
+  "name": "homepage_builder",
+  "description": "",
+  "main": "",
+  "authors": [
+    "takeokunn"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Honoka": "^3.3.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": "dist/css/bootstrap.css"
+    }
+  }
+}
