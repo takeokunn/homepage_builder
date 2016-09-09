@@ -27,16 +27,3 @@ gulp.task('server:start:tmp', () => {
 gulp.task('server:reload:tmp', () => {
     return browserSync.reload();
 });
-
-/**
- * create dist server
- */
-gulp.task('server:dist', () => {
-
-    return browserSync.init({
-        port   : conf.port,
-        server : {
-            baseDir : path.join(conf.paths.dist, '/')
-        }
-    });
-});
